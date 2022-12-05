@@ -42,7 +42,7 @@ myServer.listen(PORT, () => {
     console.log('To terminate it, use Ctrl+C combination');
 });
 
-export {
+export default {
     unknownObject,
     myServer,
 };
